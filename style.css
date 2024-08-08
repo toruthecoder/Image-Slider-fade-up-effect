@@ -1,0 +1,415 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* navigation Bar */
+.navBar {
+    width: 100%;
+    height: 6vh;
+    background-color: #36C2CE;
+}
+
+.navbar,
+.container {
+    display: flex;
+}
+
+.navigate {
+    width: 5vw;
+    margin-top: 1vh;
+}
+
+.navigate img {
+    width: 2.5vw;
+    margin-left: 1vw;
+    position: relative;
+    cursor: pointer;
+}
+
+.fa-close {
+    width: 3vw;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+.logo {
+    width: 80%;
+    height: 5vh;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    position: absolute;
+    color: #fff;
+}
+
+.logo p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -1vh;
+    margin-left: -9vw;
+}
+
+.menu { 
+    border: 2px solid grey;
+    width: 35vw;
+    height: 94.95vh;
+    background-color: #f4f4f4;
+    backdrop-filter: blur(.5rem);
+    transition: transform 0.3s linear 0s;
+    transform: translate(-100%);
+    position: relative;
+    z-index: 1000;
+    border-radius: 2rem;
+}
+
+.show_menu {
+    transform: translate(0%);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list img {
+    margin-left: 1vw;
+    margin-top: 5vh;
+    width: 2rem;
+}
+
+.list li p {
+    margin-left: 5vw;
+    margin-top: -5vh;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: end;
+    margin-top: 32.5vh;
+}
+
+.list1 li {
+    list-style-type: none;
+}
+
+.list1 img {
+    margin-left: 1vw;
+    margin-top: 3vh;
+    width: 3vw;
+}
+
+.list1 li p {
+    margin-left: 5vw;
+    margin-top: -4vh;
+}
+
+.item3 {
+    border-top: 2px solid grey;
+}
+
+.item0 {
+    margin-bottom: 2vh;
+}
+
+.item1 {
+    border-top: 2px solid grey;
+}
+
+/* Navigation Bar End */
+
+
+
+/* Wrapper slider... */
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slidebar {
+    align-items: center;
+    flex-direction: column;
+    margin-top: -90vh;
+    height: 100vh;
+}
+
+.slide-content{
+    display: none;
+}
+
+.slide-content img {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    z-index: 10;
+    border-radius: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content span{
+    color: #fff;
+    font-size: 5rem;
+    margin-top: -90vh;
+    z-index: 20;
+}
+
+/* left right arrow */
+
+.arrow{
+    margin-top: -50vh;
+    cursor: pointer;
+}
+
+/* End */
+
+/* bottom */
+
+.bottom {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+}
+
+.button{
+    width: 3vw;
+    height: 2vh;
+    border: 2px solid black;
+    margin-left: 2vw;
+    border-radius: 2rem;
+}
+
+/* Section Start */
+
+.Head{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.heading{                       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 80vh;
+    text-align: center;
+    margin-top: 5vh;
+    height: 10vh;
+    background-color: #e4e4e4c0;
+}
+
+.projects{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pro1{
+    background-color: #e4e4e4c0;
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 30vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.img{
+    border: 2px solid black;
+    width: 17.5vw;
+    height: 30vh;
+    margin-left: 6vw;
+    margin-top: 3vh;
+    border-radius: 2rem;
+}
+
+.img img{
+    overflow: hidden;
+    width: 17vw;
+    border-radius: 2rem; 
+}
+
+.para{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1.5rem;
+}
+
+.btn button{
+    border: none;
+    margin-left: 11vw;
+    margin-top: 3vh;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #36C2CE;
+    border-radius: 1rem;
+    width: 9vw;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.projects1{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pro2{
+    background-color: #e4e4e4c0;
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box2{
+    width: 25vw;
+    height: 40vh;
+    background-color: yellowgreen;
+    border-radius: 2rem;
+    box-shadow: .2rem .2rem .2rem lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.profile{
+    background-color: lightgrey;
+    width: 7vw;
+    height: 10vh;
+    border-radius: 50px;
+    margin: 20px 0 0 10px;
+    margin-top: 6vh;
+}
+
+.profile img{
+    width: 5vw;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.name{
+    margin: 50px 0 0 20px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.descp{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2.0;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Section End */
+
+/* Footer */
+
+.contain{
+    display: flex;
+    margin-top: 10vh;
+    height: 60vh;
+    background-color: black;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1{
+    text-align: center;
+    margin-right: 4vw;
+   
+}
+
+.explore h1{
+    color: #fff;
+}
+
+.index li{
+    color: white;
+    list-style-type: none;
+    margin-top: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.foot2{
+    margin-right: 4vw;
+}
+
+.explore1{
+    color: #fff;
+}
+
+.index1 li{
+    color: white;
+    list-style-type: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.explore2{
+    color: #fff;
+}
+
+.index2 li{
+    color: white;
+    list-style-type: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* Footer End */
+
+.reveal{
+    position: relative;
+    transform: translateY(10vh);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.active{
+    transform: translateY(0vh);
+    opacity: 1;
+}
